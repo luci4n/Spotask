@@ -1,0 +1,11 @@
+.banner {
+  background-image: url(src/assets/images/lcwings2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #b5b5b5;
+  background-attachment: fixed;
+  background-position: center;
+  height: 45vh;
+  border-radius: 0;
+  filter: grayscale(100%);
+}

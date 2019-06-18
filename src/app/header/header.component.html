@@ -1,6 +1,8 @@
-
-<mat-toolbar color="primary">
-  <span class="toolbar-main">LUXICO</span>
-  <span class="toolbar-space"></span>
-  <span class="toolbar-sub">Multidisciplinary Consulting</span>
-</mat-toolbar>
+<mat-card class="header" color="primary">
+  <div class="wrapper">
+    <mat-card-title>Salut!</mat-card-title>
+    <mat-card-title>I am Lucian Ciobanu, web developer<br/>and IT consultant.</mat-card-title>
+    <mat-card-content><a class="scroll" (click)="scrollService.scrollTo('contact-form')">Get in touch</a> or <a class="scroll" (click)="scrollService.scrollTo('banner')">scroll for more</a>.</mat-card-content>
+    <mat-icon class="scroll-button" (click)="scrollService.scrollTo('banner')">expand_more</mat-icon>
+  </div>
+</mat-card>

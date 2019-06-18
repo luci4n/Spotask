@@ -1,0 +1,36 @@
+.services {
+  border-radius: 0;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  min-height: 50vh;
+  padding: 5vh 20px
+}
+
+mat-card-subtitle {
+  font-size: 1.5em;
+  margin-bottom: 70px;
+  line-height: 1.4em;
+}
+
+.example-tree-invisible {
+  display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+
+mat-tree {
+  padding-right: 20px;
+  border-top: 8px solid #b042f4;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 2px #dadada;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
