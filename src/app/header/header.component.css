@@ -1,0 +1,11 @@
+.toolbar-main {
+    font-size: 28px;
+}
+
+.toolbar-space {
+    flex: 1 1 auto;
+}
+
+.toolbar-sub {
+    font-size: 14px;
+}
