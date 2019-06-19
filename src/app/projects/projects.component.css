@@ -1,11 +1,70 @@
-mat-card-subtitle.mat-card-subtitle {
+mat-card-subtitle {
   font-size: 1.5em;
   line-height: 1.4em;
-  margin-bottom: 30px;
 }
+
 .projects {
   background-color: #f7f7f7;
   padding: 5vh 20px;
   box-sizing: border-box;
   border-radius: 0;
+}
+
+.leftRs {
+  position: absolute;
+  margin: auto;
+  bottom: 2vw;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  left: 2vw;
+  border: none;
+}
+
+.rightRs {
+  position: absolute;
+  margin: auto;
+  bottom: 2vw;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  right: 2vw;
+  border: none;
+}
+
+.item {
+  box-sizing: border-box;
+}
+
+.tile {
+  min-height: 40vh;
+  background-color: #ccc;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.myPoint {
+  list-style-type: none;
+  text-align: center;
+  padding: 12px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.myPoint li {
+  display: inline-block;
+  border-radius: 50%;
+  border: 1px solid #a0a0a0;
+  padding: 4px;
+  margin: 0 3px;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transition: 0.4s;
+}
+.myPoint li.active {
+  background: #a0a0a0;
+  
 }

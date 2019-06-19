@@ -1,17 +1,16 @@
 <mat-card class="projects">
   <div class="wrapper">
     <mat-card-title>Projects I've been involved in:</mat-card-title>
-    <mat-card class="project-element">
-      <mat-card-subtitle>Front End Developer for Ubisoft's site revamp</mat-card-subtitle>
-      <a href="https://www.ubisoft.com"><img mat-card-image src="assets/images/ubisoft.png" alt="Image of Ubisoft website"></a>
-    </mat-card>
-    <mat-card class="project-element">
-      <mat-card-subtitle>Business Analyst for American Outdoor Brands stores</mat-card-subtitle>
-      <a href="https://www.bubbablade.com/"><img mat-card-image src="assets/images/bubbablade.png" alt="Image of Bubba Blade website" ></a>
-    </mat-card>
-    <mat-card class="project-element">
-      <mat-card-subtitle>Project Manager and Business Analyst for AbonamenteSali system</mat-card-subtitle>
-      <a href="https://www.abonamentesali.ro/"><img mat-card-image src="assets/images/absali.png" alt="Image of Abonamente Sali website"></a>
-    </mat-card>
+    <ngu-carousel #myCarousel [inputs]="carouselConfig" [dataSource]="carouselItems">
+      <div *nguCarouselDef="let item;" class="item">
+        <mat-card-subtitle>{{item[0]}}</mat-card-subtitle>
+        <a href={{item[1]}}><div class="tile" [style.background-image]="item[2]"></div></a>
+      </div>
+      <button NguCarouselNext class="rightRs"><mat-icon>navigate_next</mat-icon></button>
+      <button NguCarouselPrev class="leftRs"><mat-icon>navigate_before</mat-icon></button>
+      <ul class="myPoint" NguCarouselPoint>
+        <li *ngFor="let j of myCarousel.pointNumbers; let j = index" [class.active]="j==myCarousel.activePoint" (click)="myCarousel.moveTo(j)"></li>
+      </ul>
+    </ngu-carousel>
   </div>
 </mat-card>
