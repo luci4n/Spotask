@@ -7,7 +7,6 @@
 
 mat-card-subtitle {
   margin-bottom: 70px;
-  text-align: center;
   font-size: 1.5em;
   line-height: 1.4em;
 }
@@ -27,4 +26,22 @@ iframe {
   right: 1vw;
   cursor: crosshair;
   box-shadow: 0 1px 1px 1px #bbbbbb;
+}
+
+.social-link {
+  padding: 35px 15px 0;
+
+  line-height: 2em;
+}
+
+.social {
+  background-color: #b042f4;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+mat-card-content {
+  margin-bottom: 0px;
 }

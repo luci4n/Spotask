@@ -33,4 +33,10 @@ mat-tree {
 button {
   border: none;
   background-color: white;
+  cursor: crosshair;
+}
+
+div.mat-tree-node {
+  cursor: crosshair;
+  font-weight: 450;
 }
