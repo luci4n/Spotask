@@ -18,4 +18,5 @@ mat-card-content {
   font-size: 0.75em;
   color: gray;
   text-align: center;
+  width: 100%;
 }

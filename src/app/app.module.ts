@@ -6,6 +6,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import {MatDividerModule} from '@angular/material/divider';
+
 import { NguCarouselModule } from '@ngu/carousel';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -35,6 +37,7 @@ import { ProjectsComponent } from './projects/projects.component';
     MatTreeModule,
     MatIconModule,
     MatButtonModule,
+    MatDividerModule,
     NguCarouselModule,
   ],
   providers: [],
