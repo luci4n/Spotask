@@ -1,15 +1,25 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent {
+  constructor(public dialog: MatDialog) {}
+  openDialog() {
+    const dialogRef = this.dialog.open(TcgdprDialog);
 
-  constructor() { }
-
-  ngOnInit() {
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
   }
-
 }
+
+@Component({
+  selector: 'tcgdpr-dialog',
+  templateUrl: 'tcgdpr-dialog.html',
+})
+export class TcgdprDialog {}

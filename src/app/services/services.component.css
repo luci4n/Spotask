@@ -40,3 +40,7 @@ div.mat-tree-node {
   cursor: crosshair;
   font-weight: 450;
 }
+
+mat-divider.mat-divider.mat-divider-horizontal {
+  margin: 3vh 0;
+}
