@@ -14,5 +14,8 @@
 @media screen and (max-device-width: 860px) {
   .banner {
     background-image: url(src/assets/images/lcwings2_small.jpg);
+    background-size: contain;
+    -webkit-background-size: cover;
+    background-attachment: inherit;    
   }
 }
