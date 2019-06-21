@@ -18,7 +18,8 @@ const TREE_DATA: ServicesNode[] = [
       {name: 'Editing and writing code to implenent desired designed and functionality'},
       {name: 'Accustomed with Jira, Trello, git in most of it\'s forms'},
       {name: 'Experienced with HTML, CSS, JavaScript'},
-      {name: 'And related frameworks, libraries or cloud services: Angular, jQuery, Node.js, Express, Socket.io, MongoDB, Sass, Firebase, GoDaddy'}
+      {name: 'And related frameworks, libraries or cloud services: Angular, React, jQuery, Node.js, Express, Socket.io, MongoDB, Sass, Firebase, GoDaddy'},
+      {name: 'SEO'}
     ]
   }, 
   {

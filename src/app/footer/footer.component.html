@@ -1,9 +1,17 @@
 <mat-card class="footer">
-  <!--<div class="mat-app-background basic-container">
-    <tcgdpr-dialog>loading</tcgdpr-dialog>
-  </div>-->
-  <mat-card-content>&copy; Lucian Ciobanu</mat-card-content>
-  <button mat-button class="tcgdpr" (click)="openDialog()">T&C + GDPR</button>
-  <mat-card-content>lucian.cbn@gmail.com</mat-card-content>
-  <mat-card-content>0040 757 785 268</mat-card-content>
+  <div class="container">
+    <div class="copy">
+      <mat-card-content>Lucian Ciobanu &copy; {{ year | date:'y' }}</mat-card-content>
+      <mat-card-content>LC Web Consulting</mat-card-content>
+    </div>
+    <div class="mandatory-links">
+      <button mat-button class="tcgdpr" (click)="openDialog()">T&C + GDPR</button>
+    </div>
+  </div>
+  <div class="contact-links">
+    <mat-card-content>lucian.cbn@gmail.com</mat-card-content>
+    <mat-card-content>0040 757 785 268</mat-card-content>
+    <a class="social" href="www.linkedin.com/in/lucianciob4nu">LinkedIn</a>
+    <a class="social" href="www.medium.com/lucian.cbn">Medium</a>
+  </div>
 </mat-card>
