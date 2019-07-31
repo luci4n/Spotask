@@ -15,7 +15,7 @@ const TREE_DATA: ServicesNode[] = [
   {
     name: 'Web development',
     children: [
-      {name: 'Editing and writing code to implenent desired designed and functionality'},
+      {name: 'Editing and writing code to implenent desired design and functionality'},
       {name: 'Accustomed with Jira, Trello, git in most of it\'s forms'},
       {name: 'Experienced with HTML, CSS, JavaScript'},
       {name: 'And related frameworks, libraries or cloud services: Angular, React, jQuery, Node.js, Express, Socket.io, MongoDB, Sass, Firebase, GoDaddy'},
@@ -25,7 +25,7 @@ const TREE_DATA: ServicesNode[] = [
   {
     name: 'Project Management',
     children: [
-      {name: 'Analyzing general objective and prioritizing'},
+      {name: 'Analyzing general objectives and prioritizing'},
       {name: 'Spliting general objectives in actions or functionalities and managing resources'},
       {name: 'Follow up, KPI reporting'},
       {name: 'Main link with Product Owner'},
@@ -47,7 +47,7 @@ const TREE_DATA: ServicesNode[] = [
       {name: 'One on one or groups of up to six people'},
       {name: 'Evaluating current level'},
       {name: 'Devising objectives and training plan'},
-      {name: 'Guidance suited for everybody\'s learning style'}
+      {name: 'Guidance suited for everybodys\' learning style'}
     ]
   },
   {

@@ -19,19 +19,19 @@ mat-card-content {
   padding: 5px;
 }
 
-.container {
-  display: flex;
-}
-
 .tcgdpr {
   line-height: 27px;
-  border-radius: 0;
+  text-decoration: underline;
   text-align: left;
 }
 
 .copy, .mandatory-links, .contact-links {
   display: flex;
   flex-direction: column;
+}
+
+.copy {
+  align-items: flex-end;
 }
 
 .social {
@@ -46,7 +46,14 @@ mat-card-content {
 }
 
 @media screen and (max-device-width: 720px) {
-  .container {
+  .footer {
     flex-direction: column;
+    flex-wrap: wrap;
+    height: 115px;
+    justify-content: flex-start;
+  }
+
+  .mandatory-links {
+    align-items: flex-end;
   }
 }

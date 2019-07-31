@@ -1,12 +1,10 @@
 <mat-card class="footer">
-  <div class="container">
-    <div class="copy">
-      <mat-card-content>Lucian Ciobanu &copy; {{ year | date:'y' }}</mat-card-content>
-      <mat-card-content>LC Web Consulting</mat-card-content>
-    </div>
-    <div class="mandatory-links">
-      <button mat-button class="tcgdpr" (click)="openDialog()">T&C + GDPR</button>
-    </div>
+  <div class="copy">
+    <mat-card-content>&copy; {{ year | date:'y' }}, Lucian Ciobanu</mat-card-content>
+    <mat-card-content>LC Web Consulting</mat-card-content>
+  </div>
+  <div class="mandatory-links">
+    <button mat-button class="tcgdpr" (click)="openDialog()">T&C + GDPR</button>
   </div>
   <div class="contact-links">
     <mat-card-content>lucian.cbn@gmail.com</mat-card-content>
